@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body, html, #root {
+  height: 100%;
+  font-family: 'Baloo 2', sans-serif;
+  overflow: hidden;
+  font-family: 'Baloo 2', sans-serif;
+  background: #1a1a1a;
+}
+
+.game-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.game-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  pointer-events: none; 
+}
+
+.score {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffe66d;
+  -webkit-text-stroke: 1.2px #7a4a00;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 8px 20px;
+  border-radius: 14px;
+}
+
+.hearts {
+  font-size: 26px;
+  display: flex;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 8px 16px;
+  border-radius: 14px;
+}
+
+.game-over-backdrop {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.game-over-card {
+  background: linear-gradient(160deg, #fff6f0, #ffe9f3);
+  border-radius: 28px;
+  padding: 36px 50px 44px;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  border: 4px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.game-over-card h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #ff6b81;
+  -webkit-text-stroke: 2px #8a2c3d;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+
+.cat-gif {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.final-score {
+  font-size: 26px;
+  font-weight: 700;
+  color: #5b4a6f;
+}
+
+.game-over-card button {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 14px 40px;
+  background: linear-gradient(160deg, #7bd88f, #4cae63);
+  color: white;
+  -webkit-text-stroke: 0.5px #1f5c30;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #3a8f4c;
+  transition: transform 0.08s ease;
+}
+
+.game-over-card button:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #3a8f4c;
+}
