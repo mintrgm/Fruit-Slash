@@ -38,37 +38,6 @@ All fruit illustrations and the cactus bomb were illustrated by me specifically 
 
 ![Game Assets](screenshots/fruits.png)
 
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/fruit-slash.git
-```
-
-### Install frontend dependencies
-
-```bash
-cd frontend
-npm install
-```
-
-### Start the React application
-
-```bash
-npm run dev
-```
-
-### Start the Python backend
-
-```bash
-cd ../backend
-pip install -r requirements.txt
-python app.py
-```
-
-## 🎯 Objective
-
 There is no finish line.
 
 Every game is a new opportunity to improve your reflexes and set a new personal best.
