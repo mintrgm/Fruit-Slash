@@ -2,7 +2,7 @@
 
 A fun arcade-style fruit slicing game built with **React** and **Python**.
 
-Slice as many fruits as you can, avoid the cactus bombs, and beat your own high score! There is no final level or victory screen—the challenge is simply to survive and improve with every round.
+Slice as many fruits as you can, avoid the cactus bombs, and beat your own high score! There is no final level or victory screen the challenge is simply to survive and improve with every round.
 
 ## 🎮 Gameplay
 
